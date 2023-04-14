@@ -1,0 +1,21 @@
+import mainSrc from './images/home2.jpg';
+import mainSrc2 from './images/home3.jpg';
+
+const size = {
+  mobile: '720px',
+  tablet: '1024px',
+  laptop: '1280px',
+};
+
+const config = {
+  mainColor: '#999EFF', //#2076BB, 0082BC, A10FE7, #999EFF ,#6868AC
+
+  mobile: `(max-width: ${size.mobile})`,
+  tablet: `(max-width: ${size.tablet})`,
+  laptop: `(max-width: ${size.laptop})`,
+
+  mainSrc: mainSrc,
+  mainSrc2: mainSrc2,
+};
+
+export default config;
