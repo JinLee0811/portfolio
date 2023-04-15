@@ -32,11 +32,20 @@ function Header(props) {
             <i className='fas fa-tasks'></i>
           </Link>
         </li>
-        <li className={props.page === 'blog' ? 'active' : ''}>
+        {/* <li className={props.page === 'blog' ? 'active' : ''}>
           <Link to='/blog'>
             <span>Blog</span>
             <i className='fas fa-book'></i>
           </Link>
+        </li> */}
+        <li>
+          {/* eslint-disable-next-line react/jsx-no-target-blank */}
+          <a
+            href='https://www.notion.so/Jin-Lee-Frontend-Developer-f52e21711a1f449f997055ad5cc56c11'
+            target='_blank'>
+            <span>Blog</span>
+            <i className='fas fa-book'></i>
+          </a>
         </li>
         <li>
           {/* eslint-disable-next-line react/jsx-no-target-blank */}

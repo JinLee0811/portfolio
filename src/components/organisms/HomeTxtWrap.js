@@ -44,7 +44,7 @@ function AboutTxtWrap() {
               <span>Age : </span>1994.08
             </li>
             <li>
-              <span>Phone : </span>010.1234.4567
+              <span>Phone : </span>010.3470.6668
             </li>
             <li>
               <span>Address : </span>South Korea
