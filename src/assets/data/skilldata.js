@@ -64,6 +64,13 @@ const skillData = {
 
   experienceList: [
     {
+      period: '2023.04.17 - 2023.05.20',
+      position: 'Team Leader / FE',
+      company: 'AI Web Service Project',
+      explain:
+        'I am currently working as a team leader and front-end developer to create a web service that is scheduled to be completed on May 20th. The service is a project that involves training and utilizing deep learning models based on AI technology to implement a web service.',
+    },
+    {
       period: '2023.03.06 - 2023.03.24',
       position: 'Team Leader / FE',
       company: 'Data Analysis Project',

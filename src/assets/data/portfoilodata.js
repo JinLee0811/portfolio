@@ -89,6 +89,11 @@ const portfolioData = {
           tit: '어드민 및 로그인 페이지',
           desc: '사용자 및 관리자 관련 기능입니다. \n해당 프로젝트에서는 jwt 쿠키를 활용한 로그인과 카카오 API를 활용한 소셜 로그인을 구현하였습니다. 사용자들의 정보와 리뷰를 관리할 수 있는 어드민 페이지 입니다. 페이지네이션을 통하여 더 쉽게 정보를 볼 수 있습니다.',
         },
+        {
+          name: 'dataservice/prize.png',
+          tit: '프로젝트 대상(1등)',
+          desc: '프로젝트 경진 결과 대상을 받았습니다. \n위 프로젝트는 총 6명의 팀원이 참여하였고, 저는 팀장으로서 팀원을 이끌었고 개발은 Frontend를 맡았습니다.',
+        },
       ],
     },
     {
@@ -99,7 +104,8 @@ const portfolioData = {
       percent: '100%',
       link: 'https://firefly-app-eb8f3.web.app/',
       github: 'https://github.com/JinLee0811/-ToyProject-shoppingmall-',
-      description: '제작 중인 프로젝트입니다.\n약 5주동안 진행하였습니다.',
+      description:
+        'I am currently working as a team leader and front-end developer to create a web service that is scheduled to be completed on May 20th. The service is a project that involves training and utilizing deep learning models based on AI technology to implement a web service.',
       tech: [
         'Html & CSS',
         'Javascript',
@@ -108,14 +114,15 @@ const portfolioData = {
         'Node.js',
         'MongoDB',
         'PostMan',
-        'AWS',
-        'Prisma',
+        'Tensorflow',
+        'Python',
+        'Jupyter',
       ],
       image: [
         {
           name: 'dataservice/info.gif',
-          tit: '데이터 인사이트 페이지',
-          desc: 'Jupyter로 데이터 분석한 결과를 보여주는 페이지 입니다.\n공공데이터를 이용하여 지하철 혼잡도 데이터 및 부동산 데이터를 분석한 후 체감시간을 가중치하여 계산하였고 앞에서 분석한 데이터값을 chart js와 react-chartjs-2 라이브러리를 활용해 사용자와 상호작용할 수 있는 인터렉티브 그래프를 그렸습니다.',
+          tit: '제작 중 입니다.',
+          desc: '',
         },
       ],
     },

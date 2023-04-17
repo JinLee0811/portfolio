@@ -23,15 +23,16 @@ function AboutTxtWrap() {
           </Heading>
           <p>
             Hello, my name is JIN. 😀
-            <br />I am a self-taught developer who is passionate about learning
-            and creating websites and services. Drawing from my previous
-            experience in video planning and production, I developed an interest
-            in design and became a front-end developer. Currently, I am
-            diligently studying React.js and working on various projects to
-            expand my skillset. Additionally, I am always interested in the
-            latest trends and advancements in software development, including
-            AI. When I come across new information or technology, I enjoy
-            experimenting and tinkering with it to create something new.
+            <br />I am a junior web front-end developer with endless potential.
+            Although my major was not in computer science, I started developing
+            because of my interest in design, which was inspired by my
+            experience in video planning and production. Currently, I am working
+            tirelessly to become a front-end developer. I have been developing
+            web services mainly using React.js and have completed various
+            projects. Additionally, I am constantly learning different languages
+            and new technologies to expand my skills. I am also interested in
+            the latest trends and advancements in software development,
+            including AI, and enjoy trying them out.
           </p>
         </div>
         <section>
