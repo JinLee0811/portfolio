@@ -41,9 +41,9 @@ function Header(props) {
         <li>
           {/* eslint-disable-next-line react/jsx-no-target-blank */}
           <a
-            href='https://www.notion.so/Jin-Lee-Frontend-Developer-f52e21711a1f449f997055ad5cc56c11'
+            href='https://www.linkedin.com/in/jeongjin-lee-72b653272/'
             target='_blank'>
-            <span>Blog</span>
+            <span>Linkedin</span>
             <i className='fas fa-book'></i>
           </a>
         </li>

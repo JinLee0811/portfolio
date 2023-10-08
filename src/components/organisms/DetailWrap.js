@@ -5,13 +5,18 @@ import Heading from '../atoms/Heading';
 function DetailWrap(props) {
   // console.log(props.project);
 
-  const imgList = props.project.image.map((img, idx) => (
-    <li key={idx}>
-      <Heading level='3'>{img.tit !== '' && '☑️ ' + img.tit + ' ☑️'}</Heading>
-      <p>{img.desc !== '' && '▶ ' + img.desc} </p>
-      <img src={`../images/project/${img.name}`} alt='' />
-    </li>
-  ));
+  const imgList =
+    props.project && Array.isArray(props.project.image)
+      ? props.project.image.map((img, idx) => (
+          <li key={idx}>
+            <Heading level='3'>
+              {img.tit !== '' && '☑️ ' + img.tit + ' ☑️'}
+            </Heading>
+            <p>{img.desc !== '' && '▶ ' + img.desc} </p>
+            <img src={`../images/project/${img.name}`} alt='' />
+          </li>
+        ))
+      : null; // 조건을 충족하지 못하면 null 또는 플레이스홀더를 반환합니다.
 
   return (
     <StyledDetail>
@@ -31,7 +36,7 @@ function DetailWrap(props) {
               {props.project.project}
             </li>
           </ul>
-          <Heading level='2'>{props.project.name} PROJECT</Heading>
+          <Heading level='2'>{props.project.name} Project</Heading>
           <ul className='tech'>
             {props.project.tech.map((list, idx) => (
               <li key={idx}>{list}</li>
@@ -49,7 +54,7 @@ function DetailWrap(props) {
                   target='_blank'
                   rel='noopener noreferrer'>
                   <i className='far fa-file-alt'></i>
-                  Project : <span>Link</span>
+                  PPT : <span>Link</span>
                 </a>
               )}
               {props.project.github && (

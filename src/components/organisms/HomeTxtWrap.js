@@ -18,40 +18,43 @@ function AboutTxtWrap() {
             <span className='message'>
               <strong>JEONGJIN LEE</strong>
               <strong>FRONTEND DEVELOPER</strong>
-              <strong>VIDEO EDITOR</strong>
+              <strong>PASSIONATE PERSON</strong>
             </span>
           </Heading>
           <p>
             Hello, my name is JIN. 😀
-            <br />I am a junior web front-end developer with endless potential.
-            Although my major was not in computer science, I started developing
-            because of my interest in design, which was inspired by my
-            experience in video planning and production. Currently, I am working
-            tirelessly to become a front-end developer. I have been developing
-            web services mainly using React.js and have completed various
-            projects. Additionally, I am constantly learning different languages
-            and new technologies to expand my skills. I am also interested in
-            the latest trends and advancements in software development,
-            including AI, and enjoy trying them out.
+            <br />I am a Frontend developer driven by endless potential. My
+            journey into development was sparked not by a computer science
+            background, but by a deep-rooted passion for design, inspired by my
+            prior experience in video planning and production. I am currently
+            dedicating myself wholeheartedly to becoming a proficient front-end
+            developer. Throughout my journey, I have focused on web development
+            primarily using React and have successfully completed a variety of
+            projects. My thirst for knowledge drives me to constantly explore
+            new programming languages and emerging technologies, expanding my
+            skill set with each endeavor. I am also deeply intrigued by the
+            latest trends and advancements in software development, including
+            the exciting world of AI, and eagerly embrace opportunities to
+            experiment with them.
           </p>
         </div>
         <section>
           <Heading level='2'>PERSONAL INFOS</Heading>
           <ul>
             <li>
-              <span>Name : </span>JEONGJIN LEE
+              <span>Name : </span>JEONGJIN LEE (Jin)
             </li>
             <li>
-              <span>Age : </span>1994.08
+              <span>Age : </span>1994.08.11
             </li>
             <li>
-              <span>Phone : </span>010.3470.6668
+              <span>Phone : </span> +64 27 455 8317
             </li>
             <li>
-              <span>Address : </span>South Korea
+              <span>Address : </span> Auckland CBD, New Zealand
             </li>
             <li>
-              <span>Email : </span>dlwjdwls0908.elice@gmail.com
+              <span>Email : </span>dlwjdwls0908.nz@gmail.com
             </li>
           </ul>
         </section>

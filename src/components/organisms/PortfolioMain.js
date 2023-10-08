@@ -53,6 +53,11 @@ class PortfolioMain extends Component {
                   <img src='./images/toy.png' alt='' />
                 </div>
               )}
+              {list.project === 'Team' && (
+                <div className='team'>
+                  <img src='./images/team.png' alt='' />
+                </div>
+              )}
 
               <div className='info-wrap'>
                 <div className='txt-wrap'>
@@ -201,6 +206,16 @@ const StyledPortWrap = styled.div`
           padding: 20px;
           pointer-events: none;
           .toy {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-size: 30px;
+            color: ${(props) => props.theme.mainColor};
+            img {
+              width: 45px;
+            }
+          }
+          .team {
             position: absolute;
             top: 20px;
             right: 20px;
