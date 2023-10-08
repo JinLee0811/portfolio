@@ -9,7 +9,7 @@ const portfolioData = {
       link: 'https://firefly-app-eb8f3.web.app/',
       github: 'https://github.com/JinLee0811/-ToyProject-shoppingmall-',
       description:
-        'This project involves the implementation of a shopping mall using React. It includes basic functionalities such as a shopping cart, login, and sign-up. The deployment was done using a VM, and the project took approximately two weeks to complete.',
+        'For our joint project, which I led, we developed an online shopping website using React. The project includes essential features such as a shopping cart, user login, and registration. We deployed the website using a virtual machine (VM), and it took approximately two weeks to complete.',
       tech: [
         'Html & CSS',
         'Javascript',
@@ -53,7 +53,7 @@ const portfolioData = {
       project: 'Team',
       logo: 'Data',
       percent: '80%',
-      link: 'https://firefly-app-eb8f3.web.app/',
+      link: 'https://drive.google.com/file/d/1TKFxy7da0IKz8i_J8kiHyI534ThNfRI5/view?usp=sharing',
       github: 'https://github.com/JinLee0811/Data_Project',
       description:
         'The project focused on the theme of "Residence/Transportation" and involved planning, data analysis using Jupyter, service development, and deployment via a virtual machine. The project was completed in approximately three weeks and received the first prize in its category.',
@@ -112,7 +112,7 @@ const portfolioData = {
       project: 'Team',
       logo: 'CropDoctor',
       percent: '95%',
-      link: 'http://kdt-ai6-team03.elicecoding.com/',
+      link: 'https://drive.google.com/file/d/1Z0qEvznVF-j4BOYMoqy7bMolz2_DHi9X/view?usp=sharing',
       github: 'https://github.com/JinLee0811/AiProject',
       description:
         'This project is an AI-based plant classification web service featuring an AI model. I have been directly involved in all aspects of this project, from data selection to classification and model training.',
@@ -132,9 +132,59 @@ const portfolioData = {
       ],
       image: [
         {
-          name: 'dataservice/info.gif',
-          tit: '제작 중 입니다.',
-          desc: '',
+          name: 'cropDoctor/1. login.gif',
+          tit: 'Sign Up and Log In',
+          desc: 'This section covers the implementation of basic sign-up and log-in functionalities. In this project, both access tokens and refresh tokens are utilized for secure user authentication.',
+        },
+        {
+          name: 'cropDoctor/2.main.gif',
+          tit: 'Crop Diagnosis and Save Functionality (Main)',
+          desc: "Upon entering the main functionality, users can upload images of their crops. By clicking the 'Diagnose' button, an AI model analyzes the image to identify any diseases affecting the crop. It also provides corresponding solutions for crop health management.",
+        },
+        {
+          name: 'cropDoctor/3.User.gif',
+          tit: 'User Features',
+          desc: "Users have access to basic user services on their 'My Page,' where they can update their nickname, password, and even delete their account.",
+        },
+        {
+          name: 'cropDoctor/4.Admin1.gif',
+          tit: 'User and Forum Management (Admin)',
+          desc: 'Admin accounts are granted backend admin privileges, enabling access to exclusive admin pages for comprehensive web page management.',
+        },
+        {
+          name: 'cropDoctor/5.Admin2.gif',
+          tit: 'Nutrient Registration (Admin)',
+          desc: 'Admins can efficiently manage and register products through this page. This includes categorization, modification, and deletion of products, and it incorporates basic CRUD functionalities.',
+        },
+        {
+          name: 'cropDoctor/6.Admin3.gif',
+          tit: 'Categories (Admin)',
+          desc: 'This page offers highly detailed category management, facilitating the addition, modification, and deletion of product categories for precise organization.',
+        },
+        {
+          name: 'cropDoctor/7.Board.gif',
+          tit: 'Forum Functionality(Board)',
+          desc: "The Forum Functionality enables users to share photos of their crop's growth, with the option to set access permissions as public or private for enhanced interaction. It includes features such as sharing crop growth photos, controlling access permissions, and fostering user engagement through likes, comments, and replies, allowing users to share experiences and communicate with others effectively.",
+        },
+        {
+          name: 'cropDoctor/8.Board and Comment.gif',
+          tit: 'Likes and Comments, Replies',
+          desc: 'Users can express their appreciation for posts by clicking the heart button, and their likes are securely stored on the server under their respective accounts. Additionally, commenting is enabled, allowing users to post comments and replies to existing comments.',
+        },
+        {
+          name: 'cropDoctor/9.Likes and Write.gif',
+          tit: 'Writing and Like Features',
+          desc: 'Users can express their appreciation for posts by clicking the heart button, and their likes are securely stored on the server under their respective accounts. Additionally, users can create posts and engage in discussions by posting comments and replies to existing comments.',
+        },
+        {
+          name: 'cropDoctor/10.logout.gif',
+          tit: 'Log Out and Session Termination',
+          desc: 'Clicking the log-out button ensures the removal of associated tokens for the logged-in account, guaranteeing a secure log-out process.',
+        },
+        {
+          name: '',
+          tit: 'Reflection',
+          desc: "Through this project, I learned the overall flow of creating a website using AI, including data classification and management, AI modeling techniques using data, and documentation processes. Additionally, I gained insight into practical approaches to state management using tools like React Query and Jotai. For more specific project details, please refer to the project's content via the provided PowerPoint link.",
         },
       ],
     },
