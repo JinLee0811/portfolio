@@ -45,7 +45,7 @@ function AboutTxtWrap() {
               <span>Name : </span>JEONGJIN LEE (Jin)
             </li>
             <li>
-              <span>Age : </span>1994.08.11
+              <span>Age : </span>11.Aug.1994
             </li>
             <li>
               <span>Phone : </span> +64 27 455 8317
