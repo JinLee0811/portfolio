@@ -16,45 +16,35 @@ function AboutTxtWrap() {
           <Heading>
             I'M{' '}
             <span className='message'>
-              <strong>JEONGJIN LEE</strong>
-              <strong>FRONTEND DEVELOPER</strong>
+              <strong>JIN LEE</strong>
+              <strong>FULL-STACK Developer</strong>
               <strong>PASSIONATE PERSON</strong>
             </span>
           </Heading>
           <p>
             Hello, my name is JIN. 😀
-            <br />I am a Frontend developer driven by endless potential. My
-            journey into development was sparked not by a computer science
-            background, but by a deep-rooted passion for design, inspired by my
-            prior experience in video planning and production. I am currently
-            dedicating myself wholeheartedly to becoming a proficient front-end
-            developer. Throughout my journey, I have focused on web development
-            primarily using React and have successfully completed a variety of
-            projects. My thirst for knowledge drives me to constantly explore
-            new programming languages and emerging technologies, expanding my
-            skill set with each endeavor. I am also deeply intrigued by the
-            latest trends and advancements in software development, including
-            the exciting world of AI, and eagerly embrace opportunities to
-            experiment with them.
+            <br />Embarking on a Master of Information Technology at the University of Technology Sydney (UTS), I find myself at an exciting crossroads in my tech journey. My initial foray into the digital realm was fueled by a blend of passion for design and experiences in video planning and production, leading me to frontend development with a focus on React. However, my academic pursuits at UTS have sparked a keen interest in Python, guiding me towards the vast possibilities within software development.
+            <br />
+            This evolution from React to Python is a testament to my belief in continuous learning and adaptation. My background has instilled in me a problem-solving mindset and a curiosity that thrives on the challenges and complexities of new technologies. As I navigate through my studies in Python, I am committed to leveraging this dynamic programming language to broaden my skill set and contribute to innovative solutions in the tech industry.
           </p>
         </div>
         <section>
           <Heading level='2'>PERSONAL INFOS</Heading>
           <ul>
             <li>
-              <span>Name : </span>JEONGJIN LEE (Jin)
+              <span>Name : </span>Jin Lee
             </li>
             <li>
               <span>Age : </span>11.Aug.1994
             </li>
             <li>
-              <span>Phone : </span> +64 27 455 8317
+              <span>Phone : </span> +61 435 233 222
             </li>
             <li>
-              <span>Address : </span> Auckland CBD, New Zealand
+              <span>Address : </span>  Sydney, Austraila
             </li>
             <li>
-              <span>Email : </span>dlwjdwls0908.nz@gmail.com
+              <span>Email : </span>Jinlee811811@gmail.com
             </li>
           </ul>
         </section>

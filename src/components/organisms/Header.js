@@ -41,7 +41,7 @@ function Header(props) {
         <li>
           {/* eslint-disable-next-line react/jsx-no-target-blank */}
           <a
-            href='https://www.linkedin.com/in/jeongjin-lee-72b653272/'
+            href='https://www.linkedin.com/in/jin-lee-72b653272/'
             target='_blank'>
             <span>Linkedin</span>
             <i className='fas fa-book'></i>

@@ -46,14 +46,23 @@ const skillData = {
       icon: 'fab fa-git-square',
     },
     {
-      label: 'Python/SQL/Jupyter',
-      detail: [
-        'I have a solid understanding of basic Python syntax and have experience with data analysis using Python.',
-        'I can write SQL queries and manipulate data.',
-        'I am proficient in using Jupyter for data analysis and can use Matplotlib to create graphs and visualizations.',
+      "label": "SQL/PostgreSQL",
+      "detail": [
+        "Proficiency in writing complex SQL queries for data manipulation and analysis.",
+        "Experienced in database management and optimization with PostgreSQL.",
+        "Capable of integrating SQL databases with Python for enhanced data analysis workflows."
       ],
-      icon: 'fab fa-python',
+      "icon": "fas fa-database"
     },
+    {
+      "label": "Python Software Development",
+      "detail": [
+        "Comprehensive knowledge of Python for backend development, including frameworks like Django and Flask.",
+        "Experience in building scalable and maintainable web applications with Python.",
+        "Proficient in using version control with Git in a collaborative software development environment."
+      ],
+      "icon": "fab fa-python"
+    },  
     {
       label: 'TensorFlow',
       detail: [
@@ -64,6 +73,7 @@ const skillData = {
   ],
 
   experienceList: [
+
     {
       period: 'April 2023 - June 2023',
       position: 'Team Leader / FE',
@@ -124,6 +134,12 @@ const skillData = {
   ],
 
   educationList: [
+    {
+      "period": "Feb 2024 - Present",
+      "position": "Master of Information Technology Student",
+      "company": "University of Technology Sydney",
+      "explain": "Pursuing a Master of Information Technology, I'm expanding my knowledge in various IT fields, including software development, data analysis, and emerging technologies. My coursework and projects at UTS allow me to explore advanced topics such as machine learning, cybersecurity, and cloud computing. Through practical applications and research, I'm developing a deeper understanding of how to apply computer science principles to solve complex problems, enhance data processing capabilities with Python, and leverage modern software development frameworks. This journey is sharpening both my technical and analytical skills, preparing me for the challenges of tomorrow’s tech landscape."
+    },
     {
       period: 'Mar 2023 - June 2023',
       position: 'Core Artificial Intelligence',
